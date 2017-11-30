@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>About</title>
+<title>Home</title>
 <!--css-->
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
@@ -9,25 +9,21 @@
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Mechanical Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+<meta name="keywords" content="Mechanical Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!-- //for-mobile-apps -->	
+<!-- //for-mobile-apps -->
 <!-- js -->
 <script src="js/jquery.min.js"> </script>
 <script src="js/bootstrap.js"></script>
 <script type="text/javascript" src="js/move-top.js"></script>
 <script type="text/javascript" src="js/easing.js"></script>
 <!-- /js -->
-<!--fonts-->
-<link href='http://fonts.useso.com/css?family=Belgrano' rel='stylesheet' type='text/css'>
-<link href='http://fonts.useso.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic' rel='stylesheet' type='text/css'>
-<link href='http://fonts.useso.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400' rel='stylesheet' type='text/css'>
 <!--/fonts-->
 <!--script-->
 <script type="text/javascript">
 			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){		
+				$(".scroll").click(function(event){
 					event.preventDefault();
 					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
 				});
@@ -41,7 +37,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="header-nav">
 	<div class="container">
 		<div class="logo">
-			<a href="index.html"><h1>Mechanical</h1></a>
+			<a href="index.html"><h1>上饶县慧成预制厂</h1></a>
 		</div>
 		<div class="navigation">
 			<nav class="navbar navbar-default">
@@ -55,12 +51,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
 					  <ul class="nav navbar-nav">
-						<li><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
-						<li class="active"><a href="about.html">About</a></li>
-						<li><a href="services.html">Services</a></li>
-						<li><a href="blog.html">Blog</a></li>
-						<li><a href="gallery.html">Gallery</a></li>
-						<li><a href="contact.html">Contact Us</a></li>
+						<li><a href="index.html">主页 <span class="sr-only">(current)</span></a></li>
+						<li class="active"><a href="about.html">公司简介</a></li>
+						<li><a href="gallery.html">产品展示</a></li>
+						<li><a href="contact.html">联系我们</a></li>
 					  </ul>
 			  <div class="clearfix"> </div>
 			</div><!-- /.navbar-collapse -->
@@ -77,114 +71,223 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				});
 		 </script>
 		 <!-- script-for-menu -->
-<div class="banner-left">
-						<div class="banner-title"> 
+<div class="banner">
+						<!-- banner-text Slider starts Here -->
+						<script src="js/responsiveslides.min.js"></script>
+						<script>
+							// You can also use "$(window).load(function() {"
+								$(function () {
+								// Slideshow 4
+									$("#slider3").responsiveSlides({
+									auto: true,
+									pager:false,
+									nav:true,
+									speed: 500,
+									namespace: "callbacks",
+									before: function () {
+									$('.events').append("<li>before event fired.</li>");
+									},
+									after: function () {
+										$('.events').append("<li>after event fired.</li>");
+									}
+								});
+							});
+						</script>
+						<!--//End-slider-script -->
+						<div class="banner-title">
 							<div  id="top" class="callbacks_container">
 								<ul class="rslides" id="slider3">
 									<li>
-										<div class="banner2 banner5">
+										<div class="banner2">
+											<h2>品种齐全</h2>
+											<p></p>
+										</div>
+									</li>
+									<li>
+										<div class="banner1">
+											<h2>质量保障</h2>
+											<p></p>
+										</div>
+									</li>
+									<li>
+										<div class="banner-slide">
+											<h2>价格优惠</h2>
+											<p></p>
 										</div>
 									</li>
 						</ul>
 		</div>
 		<div class="clearfix"> </div>
 	</div>
-</div>		
+</div>
 <div class="banner-bottom-strip">
 	<div class="container">
-		<p>Engineering applied to the planning, design, and control of industrial operations.</p>
+		<p>品种多样&nbsp&nbsp&nbsp&nbsp质量上乘&nbsp&nbsp&nbsp&nbsp价格公正&nbsp&nbsp&nbsp&nbsp证件齐全</p>
 	</div>
-</div>	
-<!--inner-page-about-->
-<div class="abouts">
-		<div class="container">
-			<h3>About Us</h3>
-			<div class="about-main">
-				<div class="about-top">
-					<div class="col-md-5 about-top-left">
-						<img src="images/a1.jpg" class="img-responsive" alt=""/>
-					</div>
-					<div class="col-md-7 about-top-right">
-						<h4>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</h4>
-						<p>Fusce feugiat malesuada odio orbi nunc odio gravida at cursus nec luctus a lorem. Maecenas tristique orci ac sem. Duis ultricies pharetra magna onec accumsan malesuada orci. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris fermentum dictum magna. Sed laoreet aliquam leo.Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend.</p>
-						<p>Bulum iaculis lacinia est. Proin dictum elemntum velit. Fusce euismod cons equat ante. Lorem ipsum dmeconsectetuer adipiscing elit. ellentesque sed dolor. Aliquam congue fermentum nisl. Mauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Nulla vene natis. In pede mi aliquet sit amet euismod in auctor ut ligula. </p>
-					</div>
-					<div class="clearfix"></div>
+</div>
+<div class="welcome">
+	<div class="container">
+		<h3>生产工艺与技术</h3>
+		<h5>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</h5>
+<div id="products" class="products">
+				<div class="col-md-4 product-grid">
+						<a href="images/a1.jpg" class="b-link-stripe b-animate-go1   swipebox"  title="">
+							<img src="images/a1.jpg" alt=" " class="img-responsive" />
+						</a>
+						<div class="project-grid-text1">
+							<h4> 厂内设备与产品</h4>
+							<p> Itaque earum rerum hic tenetur a sapiente delectus,
+								ut aut reiciendis voluptatibus</p>
+						</div>
 				</div>
+				<div class="col-md-4 product-grid">
+						<a href="images/a2.jpg" class="b-link-stripe b-animate-go1   swipebox"  title="">
+							<img src="images/a2.jpg" alt=" " class="img-responsive" />
+						</a>
+						<div class="project-grid-text1">
+							<h4> 厂内设备与产品</h4>
+							<p> Itaque earum rerum hic tenetur a sapiente delectus,
+								ut aut reiciendis voluptatibus</p>
+						</div>
+				</div>
+				<div class="col-md-4 product-grid">
+						<a href="images/a3.jpg" class="b-link-stripe b-animate-go1   swipebox"  title="">
+							<img src="images/a3.jpg" alt=" " class="img-responsive" />
+						</a>
+						<div class="project-grid-text1">
+							<h4> 厂内设备与产品</h4>
+							<p> Itaque earum rerum hic tenetur a sapiente delectus,
+								ut aut reiciendis voluptatibus</p>
+						</div>
+					</div>
+				<div class="col-md-4 product-grid">
+						<a href="images/a4.jpg" class="b-link-stripe b-animate-go1   swipebox"  title="">
+							<img src="images/a4.jpg" alt=" " class="img-responsive" />
+						</a>
+						<div class="project-grid-text1">
+							<h4> 厂内设备与产品</h4>
+							<p> Itaque earum rerum hic tenetur a sapiente delectus,
+								ut aut reiciendis voluptatibus</p>
+						</div>
+				</div>
+				<div class="col-md-4 product-grid">
+						<a href="images/a5.jpg" class="b-link-stripe b-animate-go1   swipebox"  title="">
+							<img src="images/a5.jpg" alt=" " class="img-responsive" />
+						</a>
+						<div class="project-grid-text1">
+							<h4> 厂内设备与产品</h4>
+							<p> Itaque earum rerum hic tenetur a sapiente delectus,
+								ut aut reiciendis voluptatibus</p>
+						</div>
+					</div>
+				<div class="col-md-4 product-grid">
+						<a href="images/a6.jpg" class="b-link-stripe b-animate-go1   swipebox"  title="">
+							<img src="images/a6.jpg" alt=" " class="img-responsive" />
+						</a>
+						<div class="project-grid-text1">
+							<h4> 厂内设备与产品</h4>
+							<p> Itaque earum rerum hic tenetur a sapiente delectus,
+								ut aut reiciendis voluptatibus </p>
+						</div>
+					</div>
+					<link rel="stylesheet" href="css/swipebox.css">
+						<script src="js/jquery.swipebox.min.js"></script>
+							<script type="text/javascript">
+								jQuery(function($) {
+									$(".swipebox").swipebox();
+								});
+							</script>
+							<div class="clearfix"> </div>
+		</div>
+	</div>
+	</div>
+    <div class="copyrights">Collect from <a href="http://www.cssmoban.com/" >企业网站模板</a></div>
+<div class="features">
+	<div class="container">
+		<h3>Best Industrial Products</h3>
+		<h5>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</h5>
+		<div class="features-info">
+			<div class="col-md-6 features-left">
+				<a href="single.html"class="mask">
+				     <img src="images/feature-img.jpg" class="img-responsive zoom-img" alt=""/>
+				</a>
 			</div>
-		</div>	 
-	 <!------->
-	 <div class="who_are">
-	     <div class="container">			
-				 <h5>WHO WE ARE</h5>
-				 <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-				 <p>Morbi sapien turpis, aliquet quis elementum ut, molestie nec turpis. Duis ultrices fermentum enim ac facilisis. Phasellus laoreet rhoncus diam ut auctor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris ut malesuada mi. Aliquam nec est arcu. Quisque dui odio, interdum vel euismod vel, sollicitudin quis augue. Integer pharetra, neque in commodo consectetur, tortor enim venenatis nibh, sed dictum purus tortor non nisl.
-				 Vestibulum in bibendum lacus. Suspendisse lobortis pharetra eros. Nam sagittis nulla sed lorem gravida laoreet. Sed id lacus erat. Sed ullamcorper, libero quis ultrices blandit, arcu lorem vehicula urna, ut ultrices nunc tortor a ex. Curabitur interdum sed leo quis condimentum. Nam congue erat elit, eu malesuada augue rutrum non. Donec malesuada ultrices commodo. Vestibulum commodo congue ipsum ac suscipit.</p>
-			 
-				 <div class="about-list">
-					 <ul>
-						 <li><a href="">Always free from repetition</a></li>
-						 <li><a href="">Vestibulum rhoncus nibh quis dui fermentum iaculis.</a></li>
-						 <li><a href="">The standard chunk of Lorem Ipsum</a></li>
-						 <li><a href="">In consequat dolor in lorem egestas ultrices.</a></li>
-						 <li><a href="">Aliquam sollicitudin eros id luctus consequat.</a></li>
-						 <li class="none"><a href="">Always free from repetition</a></li>
-					 </ul>		 
-				 </div>			 
-         </div>
-	 </div>
-	 <!------->
-	 <div class="team-work1">
+			<div class="col-md-6 features-right">
+				<h4>Best Industrial Product</h4>
+				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+					<a href="about.thml" class="hvr-bounce-to-bottom">Read More</a>
+			</div>
+			<div class="clearfix"> </div>
+	  </div>
+	</div>
+</div>
+<div class="features1">
+	<div class="container">
+		<h3>Technological Development In Industry</h3>
+		<h5>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</h5>
+		<div class="features-info1">
+			<div class="col-md-6 features-right1">
+				<h4>Best Industrial Product</h4>
+				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+					<a href="about.thml" class="hvr-bounce-to-bottom">Read More</a>
+			</div>
+						<div class="col-md-6 features-left1">
+							<a href="single.html"class="mask">
+				              <img src="images/feature-img2.jpg" class="img-responsive zoom-img" alt=""/>
+				           </a>
+			</div>
+			<div class="clearfix"> </div>
+	  </div>
+	</div>
+</div>
+<div class="testimonials">
+			<div class="testimonials-quote">
+					<div class="col-md-6 testimonials-text">
+						<h5>The silverware needed polishing and the furniture could use a good dusting.</h5>
+			</div>
+			<div class="clearfix"> </div>
+        </div>
+        </div>
+	 <div class="team-work">
 	  <div class="container">
-		 <h4 class="team">TEAM WORK</h4>
+		 <h3 class="team">Team Work</h3>
 		 <div class="team-grids">
-			 <div class="col-md-3 team-grid1">
+			 <div class="col-md-3 team-grid">
 				 <img src="images/abt1.jpg" alt=""/>
-				 <h4><a href="single.html">Sed vestibulum dui</a></h4>
+				 <h3><a href="single.html">Sed vestibulum dui</a></h3>
 				 <p>Nulla elementum vulputate quam, quis efficitur quam tempus non. Cras a dignissim purus. Ut scelerisque quis eros elementum sollicitudin.</p>
 			 </div>
-			 <div class="col-md-3 team-grid1">
+			 <div class="col-md-3 team-grid">
 				 <img src="images/abt2.jpg" alt=""/>
-				 <h4><a href="single.html">Fusce fringilla in mattis</a></h4>
+				 <h3><a href="single.html">Fusce fringilla in mattis</a></h3>
 				 <p>Nulla elementum vulputate quam, quis efficitur quam tempus non. Cras a dignissim purus. Ut scelerisque quis eros elementum sollicitudin.</p>
 			 </div>
-			 <div class="col-md-3 team-grid1">
+			 <div class="col-md-3 team-grid">
 				 <img src="images/abt3.jpg" alt=""/>
-				 <h4><a href="single.html">Donec porta in fringilla</a></h4>
+				 <h3><a href="single.html">Donec porta in fringilla</a></h3>
 				 <p>Nulla elementum vulputate quam, quis efficitur quam tempus non. Cras a dignissim purus. Ut scelerisque quis eros elementum sollicitudin.</p>
 			 </div>
-			 <div class="col-md-3 team-grid1">
+			 <div class="col-md-3 team-grid">
 				 <img src="images/abt4.jpg" alt=""/>
-				 <h4><a href="single.html">Sed non sem facilisis</a></h4>
+				 <h3><a href="single.html">Sed non sem facilisis</a></h3>
 				 <p>Nulla elementum vulputate quam, quis efficitur quam tempus non. Cras a dignissim purus. Ut scelerisque quis eros elementum sollicitudin.</p>
 			 </div>
-			 <div class="clearfix"></div>
+			 <div class="clearfix"> </div>
 		 </div>
 	 </div>
 </div>
-</div>
-<!--/inner-page-about-->
  <div class="footer">
-			 <div class="container">				 	
+			 <div class="container">
 				 <div class="col-md-3 ftr_navi ftr">
-					 <h3>NAVIGATION</h3>
+					 <h3>网站导航</h3>
 					 <ul>
-						 <li><a href="index.html">Home</a></li>
-						 <li><a href="about.html">About</a></li>
-						 <li><a href="gallery.html">Gallery</a></li>						
-						 <li><a href="blog.html">Blog</a></li>
-						 <li><a href="contact.html">Contact</a></li>
+						 <li><a href="index.html">主页</a></li>
+						 <li><a href="about.html">公司简介</a></li>
+						 <li><a href="gallery.html">产品展示</a></li>
+						 <li><a href="contact.html">联系我们</a></li>
 					 </ul>
 				 </div>
 				 <div class="col-md-3 ftr_navi ftr">
-					 <h3>MEMBERS</h3>
-					 <ul>
-						 <li><a href="#">Customer Support</a></li>
-						 <li><a href="#">Platinum Support</a></li>
-						 <li><a href="#">Gold Support</a></li>						
-						 <li><a href="#">Standard Support</a></li>
-						 <li><a href="#">Training</a></li>
-					 </ul>
 				 </div>
 				 <div class="col-md-3 get_in_touch ftr">
 					  <h3>联系我们</h3>
@@ -195,8 +298,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					  <p>邮箱：1170143845@qq.com</p>
 				 </div>
 				 <div class="col-md-3 ftr-logo">
-					 <a href="index.html"><h3>Mechanical</h3></a>
-					 <p>Copyright &copy; 2015.Company name All rights reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
+					 <a href="index.html"><h3>慧成预制厂</h3></a>
+					 <p>Copyright &copy; 上饶县慧成预制厂|上饶水泥管</p>
 				 </div>
 				<div class="clearfix"> </div>
 			 </div>
@@ -210,13 +313,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				containerID: 'toTop', // fading element id
 				containerHoverID: 'toTopHover', // fading element hover id
 				scrollSpeed: 1200,
-				easingType: 'linear' 
+				easingType: 'linear'
 				};
 				*/
 		$().UItoTop({ easingType: 'easeOutQuart' });
 });
 </script>
 <a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-<!----> 
+<!---->
 </body>
 </html>
